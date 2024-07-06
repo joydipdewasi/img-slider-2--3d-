@@ -14,8 +14,8 @@ body{
 
 .box{
     position: relative;
-    width: 280px;
-    height: 300px;
+    width:270px;
+    height: 280px;
     transform-style: preserve-3d;
     animation: animate 20s linear infinite;
 }
@@ -30,7 +30,8 @@ body{
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotatey(calc(var(--i) * 45deg))translateZ(400px);
+    transform: rotatey(calc(var(--i) * 80deg))translateZ(400px); /* star(*)dia jata a6a tarpor deg joto barabo (recomanded angler 45,40,80,135,160,200)toto photogulo ka6a asba */
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent,#0059); /*#0000 ar end ar 0 ka changr korala sado aro deep hoba ar end ar 00 ka change kolra shado aroo deep hoba*/ 
 }
 
 .box span img{
